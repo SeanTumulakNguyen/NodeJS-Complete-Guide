@@ -1,13 +1,13 @@
 const http = require("http");
 const path = require("path");
 const express = require("express");
-const bodyParse = require("body-parser");
 const bodyParser = require("body-parser");
-
-const app = express();
 
 const adminData = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
+
+const app = express();
+app.set();
 
 const rootDir = require("./util/path");
 
