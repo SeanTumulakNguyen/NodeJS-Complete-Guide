@@ -13,9 +13,9 @@ router.get("/add-product", (request, response, next) => {
 
 // /admin/add-product => POST
 router.post("/add-product", (request, response, next) => {
-  products.puch({ title: request.body.title });
+  products.push({ title: request.body.title });
   response.redirect("/");
 });
 
-exports.route = router;
+exports.routes = router;
 exports.products = products;
