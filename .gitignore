@@ -3,5 +3,6 @@ node_modules
 
 # Created files
 message.txt
+/data/products.json
 
 .idea
